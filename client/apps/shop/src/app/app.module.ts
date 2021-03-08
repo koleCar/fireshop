@@ -13,7 +13,7 @@ import {
   JpImagePreloadModule,
   JpPreloadService
 } from '@jaspero/ng-image-preload';
-import {ENV_CONFIG} from '@jf/consts/env-config.const';
+import {ENV_CONFIG} from '../../../../../functions/src/consts/env-config.const';
 import {environment} from '../environments/environment';
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';

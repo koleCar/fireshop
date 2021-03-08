@@ -1,6 +1,6 @@
-import {Directive, ElementRef, Input, Renderer2} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
-import {ENV_CONFIG} from '@jf/consts/env-config.const';
+import {Directive, ElementRef, Input, Renderer2} from '@angular/core';
+import {ENV_CONFIG} from '../../../functions/src/consts/env-config.const';
 import {BROWSER_CONFIG} from '../consts/browser-config.const';
 
 @Directive({
